@@ -304,10 +304,14 @@ ol {
 }
 
 .header__logo {
-  padding: 30px 0;
+  padding: 40px 0;
 }
-.header__logo a {
+.header__logo p {
   display: inline-block;
+  color: #ffffff;
+  font-size: 27px;
+  font-family:"Josefin Sans", sans-serif;
+  font-weight: 600;
 }
 
 .header__nav__option {
@@ -862,15 +866,18 @@ ol {
 }
 
 .footer__top {
-  padding: 30px 0;
+  padding: 40px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 
 .footer__top__logo {
   line-height: 40px;
 }
-.footer__top__logo a {
+.footer__top__logo h1 {
   display: inline-block;
+  color: #ffffa0;
+  font-size:35px;
 }
 
 .footer__top__social {
@@ -1159,8 +1166,8 @@ ol {
 
 .services__item__icon {
   position: relative;
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
   line-height: 70px;
   text-align: center;
 }
